@@ -1,22 +1,27 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đăng nhập</title>
-    <link rel="stylesheet" href="style.css"> <!-- Sử dụng CSS chung -->
+    <title>Epic Games Login</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <!-- Form đăng nhập -->
-    <div id="login-page">
-        <h2>Đăng nhập</h2>
-        <form action="dashboard.html" method="POST">
-            <label for="username">Tên đăng nhập:</label>
-            <input type="text" id="username" name="username" required>
-            <label for="password">Mật khẩu:</label>
-            <input type="password" id="password" name="password" required>
-            <button type="submit">Đăng nhập</button>
-        </form>
+    <div class="login-container">
+        <div class="login-box">
+            <div class="logo">
+                <img src="img/epicgame.png" alt="Epic Games Logo">
+            </div>
+            <form action="#">
+                <input type="email" placeholder="Email Address" required>
+                <input type="password" placeholder="Password" required>
+                <a href="#" class="forgot-password">Forgot password?</a>
+                <button type="submit" class="login-btn">Sign In</button>
+            </form>
+            
+            </div>
+            <a href="#" class="create-account">Create account</a>
+        </div>
     </div>
 </body>
 </html>
